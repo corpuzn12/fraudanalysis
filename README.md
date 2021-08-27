@@ -1,4 +1,5 @@
 # Identifying Fraudulent Claims using PCA and K-means Clustering
+**Project Update:** The current version of the Jupyter Notebook is being restructured to facilitate the runtime. The EDA, Wrangling and Modeling components will be situated in seperate notebooks. 
 ## Background 
 Healthcare fraud is a complex type of fraud that not only involves falsifying patient encounter information but also collusion with other providers.  In exploring the unique challenges of properly classifying fraudulent claims, this project used  a dataset from a Kaggle project with a similar goal. Classifying fraudulent claims rather than fraudulent providers is more informative given that providers are not always going to be fraudulent.
 ## Data Wrangling Methodology
@@ -19,9 +20,21 @@ Healthcare fraud is a complex type of fraud that not only involves falsifying pa
 </p> 
 
 **B. Graphical Representation of the Components** </p> 
- </p> 
+**N=50**</p>
+  </p> 
+<img src="https://user-images.githubusercontent.com/29220349/131052992-89dc90c9-1e22-4923-8bc4-32e49a62c2d3.JPG" width="90%"></img> <img src="https://user-images.githubusercontent.com/29220349/131052994-154553ef-e8d1-4560-8f90-36b25359e747.JPG" width="90%"></img> <img src="https://user-images.githubusercontent.com/29220349/131052999-7f8f1320-c5e9-4e56-95b8-11e7b1f66d6e.JPG" width="90%"></img> 
+</p>
+**N=26**
+<img src="https://user-images.githubusercontent.com/29220349/131053245-8a8d3337-3767-49c0-bed9-dd9ebfc7200d.JPG" width="90%"></img> <img src="https://user-images.githubusercontent.com/29220349/131053248-3a3663fa-7f31-4e43-b73f-7e2a5f8a7fdd.JPG" width="90%"></img> 
 
 ## K Means </p>
+**K=20**</p>
+<img src="https://user-images.githubusercontent.com/29220349/131053964-9b0fdbb7-f3f4-447c-8946-cf032505aaa6.JPG" width="90%"></img> <img src="https://user-images.githubusercontent.com/29220349/131053966-fc141299-e6a5-409f-9683-0e0a5ca37810.JPG" width="90%"></img> 
+</p>
+**K=35**
+<img src="https://user-images.githubusercontent.com/29220349/131054171-ac0a5389-1553-49a0-ab83-6b84d574a601.JPG" width="90%"></img> <img src="https://user-images.githubusercontent.com/29220349/131054176-47bdb6e8-1c40-4670-aa66-233fa36c4916.JPG" width="90%"></img> 
+
+
 
 ## Analysis 
 . </p> 
