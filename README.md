@@ -1,11 +1,11 @@
 # Identifying Fraudulent Claims using PCA and K-means Clustering
 **Project Update:** The current version of the Jupyter Notebook is being restructured to facilitate the runtime. The EDA, Wrangling and Modeling components will be situated in seperate notebooks. 
 ## Background 
-Healthcare fraud is a complex type of fraud that not only involves falsifying patient encounter information but also collusion with other providers.  In exploring the unique challenges of properly classifying fraudulent claims, this project used  a dataset from a Kaggle project with a similar goal. Classifying fraudulent claims rather than fraudulent providers is more informative given that providers are not always going to be fraudulent.
+Healthcare fraud not only involves falsifying patient encounter information but also collusion with other providers.  In exploring the unique challenges of properly classifying fraudulent claims, this project used  a dataset from a Kaggle project with a similar goal. Classifying fraudulent claims rather than fraudulent providers is more informative in this content given that providers are not always going to be fraudulent for practical reasons. 
 ## Data Wrangling Methodology
  1. Re-merging Datasets : The original dataset partitioned the original outpatient, inpatient and beneficiary files into separate test and training datasets. Since we will be using unsupervised learning to classify  fraudulent providers/claims, all of the features will have to be numeric. Hence, the test and training set for the inpatient, outpatient and beneficiary datasets were remerged to make the data wrangling process more efficient. 
 
- 2. Handling NaNs with Care: Due to the nature of our inquiry, some types of omission might be a telling trait of a fraudulent activity especially in features that might have a heavier weight in claims like the list or type of diagnosis codes. Therefore, NaNs are for the most part retained and converted to 0  to accommodate our algorithm specifications. 
+ 2. Handling NaNs with Care: Due to the nature of our inquiry, some types of omission might be a telling trait of a fraudulent activity especially in features that might have a heavier weight in claims like the list or type of diagnosis codes. Therefore, NaNs are for the most part retained and converted to 0  to accommodate our algorithm specifications. However, it would be interseting to see how our results would vary if these values were dropped. 
 
 3. Re-coding Provider Ids : Prefixes like ‘PHY’ and ‘PRV’ in features that reference providers were removed and the remaining numeric values were converted to integers.
 
