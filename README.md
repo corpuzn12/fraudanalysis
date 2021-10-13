@@ -1,5 +1,5 @@
 # Identifying Fraudulent Claims using PCA and K-means Clustering
-**Project Update:** The current version of the Jupyter Notebook is being restructured to facilitate the runtime. The EDA, Wrangling and Modeling components will be situated in seperate notebooks. 
+**Project Update:** The current version of the Jupyter Notebook is being restructured to facilitate the runtime. The EDA, Wrangling and Modeling components will be situated in seperate notebooks. RAndom Forest will be added to our final approach.  
 ## Background 
 Healthcare fraud not only involves falsifying patient encounter information but also collusion with other providers.  In exploring the unique challenges of properly classifying fraudulent claims, this project used  a dataset from a Kaggle project with a similar goal. Classifying fraudulent claims rather than fraudulent providers is more informative in this content given that providers are not always going to be fraudulent for practical reasons. 
 ## Data Wrangling Methodology
